@@ -1,0 +1,585 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass ctex-book
+\begin_preamble
+\input{setup/packages}
+\input{setup/fonts}
+\end_preamble
+\options UTF8,12pt,a4paper,openany,twoside,numbers,sort&compress
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package none
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{setup/format.tex}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+include{include/frontpages}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+include{include/abstract}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+include{include/contents}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+include{include/margin}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+导论
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+echapter{Introduction}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+使用该模板时，推荐安装以下工具：
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "MikTeX"
+target "http://miktex.org/"
+
+\end_inset
+
+ Full Installation
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "LyX"
+target "http://lyx.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+简单内容
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+esection{Simple contents}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+数学表达式，该表达式用于引用文献
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1999"
+
+\end_inset
+
+。文献引用写在中括号内，采用压缩和连续的写法
+\begin_inset CommandInset citation
+LatexCommand citep
+key "2006b,2006c,2006d"
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{2}+y^{2}=z^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+表格内容
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+地区
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+年产值
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+增长率
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+地区表格
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+表格测试
+\end_layout
+
+\begin_layout Section
+结构介绍
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+esection{Structure}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+封面页
+\end_layout
+
+\begin_layout Enumerate
+厦门大学学位论文原创性声明
+\end_layout
+
+\begin_layout Enumerate
+厦门大学学位论文著作权使用声明
+\end_layout
+
+\begin_layout Enumerate
+中文、英文摘要
+\end_layout
+
+\begin_layout Enumerate
+中文、英文目录
+\end_layout
+
+\begin_layout Enumerate
+中文正文
+\end_layout
+
+\begin_layout Enumerate
+参考文献
+\end_layout
+
+\begin_layout Enumerate
+附录
+\end_layout
+
+\begin_layout Enumerate
+致谢
+\end_layout
+
+\begin_layout Section
+功能简介
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+esection{Features}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+文本格式符合《厦门大学研究生学位论文格式规范》
+\end_layout
+
+\begin_layout Itemize
+参考文献格式符合GB7714-87《文后参考文献著录规则》和GB3469-83《文献类型与文献载体代码》
+\end_layout
+
+\begin_layout Itemize
+页眉页脚
+\end_layout
+
+\begin_layout Chapter
+文档编辑
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+echapter{Document editing}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+如何编辑文档
+\end_layout
+
+\begin_layout Chapter
+小结
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+echapter{Conclusion}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+小结
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+backmatter
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+wuhao
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+hei 参考文献}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toe}{chapter}{References}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "ref"
+options "setup/GBTNLangC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+附录
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toe}{chapter}{Appendix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+附录内容
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+include{include/acknowledgement}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

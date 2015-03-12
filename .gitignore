@@ -107,3 +107,9 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+
+# lyx backup
+*.lyx~
+
+# thumb
+*.db

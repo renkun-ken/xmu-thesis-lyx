@@ -1,0 +1,16 @@
+\renewcommand{\baselinestretch}{1.5}
+\fontsize{12pt}{13pt}\selectfont
+
+\mainmatter
+% 定义正文页眉和页脚 使用fancyhdr 宏包
+\pagestyle{fancy}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\headheight}{12 pt} % make space for the rule
+\fancyhead[CE]{\song\wuhao\rightmark}
+\fancyhead[CO]{\song\wuhao\leftmark}
+\fancyfoot[CE,CO]{~\thepage~} %页码页脚置中
+%去掉章节标题中的数字
+\renewcommand{\sectionmark}[1]{\markright{\thesection \ #1}}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername \ #1}{}}
