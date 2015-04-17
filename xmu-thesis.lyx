@@ -194,21 +194,35 @@ esection{Simple contents}
 \end_layout
 
 \begin_layout Standard
-数学表达式，该表达式用于引用文献
+数学表达式，该表达式用于引用文献。
 \begin_inset CommandInset citation
 LatexCommand citep
-key "1999"
+key "merton1976option"
 
 \end_inset
 
-。文献引用写在中括号内，采用压缩和连续的写法
+做了一些研究。
 \begin_inset CommandInset citation
 LatexCommand citep
-key "2006b,2006c,2006d"
+key "cox1979option"
 
 \end_inset
 
-。
+做了另一些研究。
+\begin_inset CommandInset citation
+LatexCommand citep
+key "苏冬蔚2004流动性与资产定价"
+
+\end_inset
+
+做了一些研究。
+\begin_inset CommandInset citation
+LatexCommand citep
+key "陈浪南2000资本资产定价模型的实证研究"
+
+\end_inset
+
+做了另一些研究。文献引用写在中括号内，采用压缩和连续的写法。
 \end_layout
 
 \begin_layout Standard
@@ -534,7 +548,7 @@ addcontentsline{toe}{chapter}{References}
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "ref"
-options "setup/GBTNLangC"
+options "setup/gbt7714-2005"
 
 \end_inset
 
